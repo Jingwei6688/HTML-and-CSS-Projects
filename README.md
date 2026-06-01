@@ -1,2 +1,2 @@
 # HTML and CSS Projects
-Some code about learning HTML and CSS
+This repository is used to storage some code about HTML and CSS.
