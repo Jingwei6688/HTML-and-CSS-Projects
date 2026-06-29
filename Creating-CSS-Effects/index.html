@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li class="drop">
+        <a href="#">Images</a>
+        <div class="rollover-menu">
+          <a href="#image1">Image 1</a>
+          <a href="#image2">Image 2</a>
+          <a href="#image3">Image 3</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- images -->
+  <section>
+    <!-- image 1 -->
+    <div class="img-container" id="image1">
+      <image src="images/dog.png" alt="dog"></image>
+      <div class="overlay"></div>
+    </div>
+    <!-- image 2 -->
+    <div class="img-container" id="image2">
+      <image src="images/cat.png" alt="cat" class="zoom"></image>
+    </div>
+    <!-- image 3 -->
+    <div class="img-container" id="image3">
+      <div class="circle">
+        <image src="images/fish.png">
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-text">
+      <p>&copy; 2026 My Website. The Tech Academy.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
